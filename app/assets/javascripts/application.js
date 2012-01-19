@@ -6,4 +6,8 @@
 //
 //= require jquery
 //= require jquery_ujs
-//= require_tree .
+//= require libraries/json2.js
+//= require libraries/underscore.js
+//= require libraries/backbone.js
+//= require libraries/modernizr-1.6.min.js
+//= require notes
