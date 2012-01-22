@@ -17,13 +17,13 @@ class NotesController < ApplicationController
   end
   
   def update
-    note = Mynote.find(params[:id])
+    note = Note.find(params[:id])
     note.update_attributes! params
     render :json => note
   end
   
   def destroy
-    note = Mynote.find(params[:id])
+    note = Note.find(params[:id])
     note.destroy
     render :json => note
   end

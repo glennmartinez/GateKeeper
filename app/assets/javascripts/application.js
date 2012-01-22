@@ -11,3 +11,6 @@
 //= require libraries/backbone.js
 //= require libraries/modernizr-1.6.min.js
 //= require notes
+//= require models
+//= require collections
+//= require views
